@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/Navbar";
 import Sidebar from "@/components/sidebar/page";
 export default function RootLayout({
   children,
@@ -6,13 +7,15 @@ export default function RootLayout({
 }>) {
   return (
     //   // for sidebar grid
-    <main dir="rtl" className="h-screen grid grid-cols-[80px_1fr] md:grid-cols-[250px_1fr]">
+    <main dir="rtl" className="h-screen grid grid-cols-[80px_1fr] md:grid-cols-[200px_1fr]">
       {/* left side bar */}
-      <div className="bg-slate-50 dark:bg-gray-100/10 shadow-sm">
+      <div className="bg-zinc-100 dark:bg-zinc-800 shadow-sm">
         <Sidebar />
       </div>
       {/* right content */}
-      <div className=" p-5">
+      <div className="bg-zinc-50 dark:bg-zinc-700">
+        {/* navbar */}
+        <Navbar />
         {children}
       </div>
     </main>
