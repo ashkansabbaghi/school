@@ -36,6 +36,6 @@ A modern and efficient school management dashboard built with Next.js. This proj
 
 Feel free to submit pull requests or open issues if you find bugs or have suggestions.
 
-## License
 
-This project is licensed under the MIT License.
+## License
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
