@@ -16,17 +16,29 @@ export default function Example() {
               یک پلتفرم جامع برای مدیریت همه چیز از داده‌های دانش‌آموزان تا ارتباطات کارکنان و والدین، که اطمینان از عملیات روزانه مدرسه را فراهم می‌کند.
             </p>
           </div>
-          <div className="hidden w-full flex-col lg:inline-block lg:w-3/6">
-            <Image src="/images/dashboard.png" alt="داشبورد مدرسه" className="rounded-lg w-full" width={500} height={500} />
+          <div className="hidden w-full flex-col lg:inline-block lg:w-3/6 items-center justify-center">
+            <Image
+              src="/images/ai1.webp"
+              alt="داشبورد مدرسه"
+              width={500}
+              height={500}
+              className="rounded-lg w-auto h-[calc(100vh-50px)]"
+            />
           </div>
-          <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-            <img src="/images/dashboard.png" alt="تصویر" />
+          <div className="my-10 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
+            <Image
+              src="/images/ai1.webp"
+              alt="تصویر"
+              height={500}
+              width={500}
+              className="rounded-lg w-full"
+            />
           </div>
         </div>
-        <div className="mt-0 bg-white lg:mt-40">
+        <div className="mt-0 bg-white lg:mt-12">
           <div className="mx-auto">
-            <div className="mx-auto px-5 py-24 lg:px-24">
-              <div className="my-10 flex w-full flex-col text-center">
+            <div className="mx-auto px-5 py-10 lg:px-24">
+              <div className="my-5 flex w-full flex-col text-center">
                 <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
                   رابط کاربری کارآمد و کاربرپسند برای همه کاربران
                 </h2>
@@ -55,12 +67,12 @@ export default function Example() {
             </div>
           </div>
           <div className="text-black">
-            <div className="max-w-8xl mx-auto flex flex-col px-5 py-48 text-black lg:flex-row">
+            <div className="max-w-8xl mx-auto flex flex-col px-5 py-12 text-black lg:flex-row">
               <div className="lg:mb-0 lg:w-full lg:max-w-xl">
                 <Image
                   className="rounded object-cover object-center"
                   alt="تصویر"
-                  src="/images/dashboard-overview.png"
+                  src="/images/ai2.webp"
                   width={500}
                   height={500}
                 />
